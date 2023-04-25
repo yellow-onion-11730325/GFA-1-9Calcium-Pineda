@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div>
+        <Header>Globalgiving charity organisation</Header>
+        <p>
+            Globalgiving is a charity organisation that doesn't focus on one charity, however allows users to donate to whatever cause they desire, globally.
+            <ul>
+                <li>Your donations can go anywhere around the globe</li>
+                <li>It also supports local charities</li>
+                <li>It is nonprofit, they don't even have a way to directly donate to them, or at least,they don'y push it in any way, so you can trust your donations are going to the right place</li>
+            </ul>
+            However, this site doesn't link directly to it, and there weren't instructions on what the submit button should do, or how it even should be linked to the charity, so I'll just put the link here
+        </p>
+        <a href="globalgiving.org">The link</a>
+    </div>
+    <form onsubmit="">
+        <Legend>Sign in to help the cause!</Legend>
+        <div>
+            Your first name:
+            <input type="text" id="fname" required>
+        </div>
+        <div>
+            Your last name:
+            <input type="text" id="lname" required>
+        </div>
+        <div id="sex">
+            Your sex/gender:
+            <input type="radio" id="m" name="sex" value="male" required>
+            <label for="m">Male</label>
+            <input type="radio" id="f" name="sex" value="female">
+            <label for="f">Female</label>
+            <input type="radio"id="n_a" name="sex" value="n/a">
+            <label for="n_a">Rather not say</label>
+        </div>
+        <div>
+            Your email adress:
+            <input type="text" id="email" required>
+        </div>
+        <div>
+            Your cell phone number (not required):
+            <input type="text" id="contact">
+        </div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
